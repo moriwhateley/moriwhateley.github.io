@@ -1,1 +1,44 @@
-
+#title {
+    font-family: "Tillana", serif;
+    color: rgb(38, 28, 94);
+}
+.caption {
+    font-family: "Tillana", serif;
+    color: rgb(63, 50, 138);
+}
+.recipenames {
+    font-family: "Chivo Mono", monospace;
+}
+.specialty {
+    font-family: "Courgette", serif;
+}
+.instructions {
+    font-family: "Chivo Mono", monospace;
+}
+#kitsune-udon {
+    color: rgb(190, 83, 207)
+}
+body {
+    background: rgb(211, 197, 227)
+}
+.table {
+    font-family: "Chivo Mono", monospace;
+    color: rgb(38, 28, 94)
+}
+.steps_title {
+    font-family: "Tillana", serif;
+    color: rgb(190, 83, 207);
+}
+.udon_steps {
+    font-family: "Tillana", serif;
+    color: rgb(72, 16, 135);
+    font-weight: bold
+}
+#yae_image {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+#main_text {
+    margin: 50px;
+}
