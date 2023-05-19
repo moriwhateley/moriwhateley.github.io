@@ -2,16 +2,23 @@
 inspired by the video game Genshin Impact.-->
 <!DOCTYPE html>
     <head>
+        <!--linking the style.css and fonts-->
         <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Tillana&family=Chivo+Mono&family=Courgette">
+        <!--initializing a universal charset-->
         <meta charset="utf-8">
+        <!--title of the webpage-->
         <title>Recipe Book</title>
+        <!--tells computer where to look for the style sheet-->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!--tags and centers the title of the page-->
         <h1 id="title">
             <center><b>Recipe Book</b></center>
         </h1>
+        <!--tags and centers the caption under the title, includes external link-->
         <h4 class="caption">
             <center><b>Inspired by <a href="https://www.youtube.com/@morikitchen/featured">MoriKitchen</a> on YouTube</b><br>(Original dish concepts from Genshin Impact)</center>
+            <!--tags the recipe directory, places the kitsune udon internal link inside-->
             <ul class="recipenames">
                 <li>
                     <a href="#kitsune-udon">Kitsune Udon</a>
@@ -19,16 +26,22 @@ inspired by the video game Genshin Impact.-->
             </ul>
         </h4>
     </head>
+    <!--gives the body text an id-->
     <body id="main_text">
+        <!--tags the kitsune udon as specialty and gives it an id-->
         <h2 class="specialty" id="kitsune-udon">
                 Yae Miko's Specialty: Fukuuchi Udon<br>
+                <!--div for the image, img tag includes source and width-->
                 <div id="yae_image">
                 <img src="https://cdn.fanbyte.com/wp-content/uploads/2020/10/genshin-yae-miko.png?x25640" width="500px">
                 </div>
         </h2>
+        <!--tags the instructions for the recipe-->
         <div class="instructions">
         <p>
+            <!--tags the ingredients table for style.css-->
             <table class="table">
+                <!--table of ingredients and their amounts-->
                 <thead>
                     <tr>
                         <th>Ingredient</th>
@@ -93,11 +106,14 @@ inspired by the video game Genshin Impact.-->
                 </tbody>
             </table>
             <br>
+            <!--tags the title of the steps-->
             <h3 class="steps_title">
                 Steps
             </h3>
+            <!--gives an id to the div tag corresponding with the dish kitsune udon-->
             <div class="udon_steps">
             <ol>
+                <!--ordered list of recipe steps-->
                 <li>Mix 50g of glutinous rice flour with 50mL of water in a bowl. Knead until solid, then set half aside for later.</li>
                 <li>Place a drop of red food coloring into the remaining half. Knead until the flour is pink.</li>
                 <li>Use the food wrap to flatten a sheet of flour, then use the cookie cutter to form a pink sakura flower.</li>
